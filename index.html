@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="app">
-        <h2 v-bind:title="message">{{ message }}</h2>
     
+        <!--
         <ul>
             <todo-item
                 v-for="item in todos"
@@ -17,9 +17,15 @@
                 v.bind:key="item.id"
             ></todo-item>
         </ul>
+        -->
+
+        <ul>
+            <link-list v-for="item in linkList" v-bind:module="item"></link-list>
+        </ul>
     </div>
 
-    <script src="components/TodoItemComponent.js"></script>
+    <script src="components/LinkItemComponent.js"></script>
+    <script src="components/LinkListComponent.js"></script>
     <script src="scripts/index.js"></script>
 </body>
 </html>
