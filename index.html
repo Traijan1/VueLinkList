@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Link List</title>
+</head>
+<body>
+    <div id="app">
+        <h2 v-bind:title="message">{{ message }}</h2>
+    
+        <ul>
+            <todo-item
+                v-for="item in todos"
+                v-bind:todo="item"
+                v.bind:key="item.id"
+            ></todo-item>
+        </ul>
+    </div>
+
+    <script src="components/TodoItemComponent.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
