@@ -4,7 +4,8 @@ let linkList = [
         items: [
             {
                 title: "Vue LinkList",
-                link: "https://github.com/Traijan1/VueLinkList"
+                link: "https://github.com/Traijan1/VueLinkList",
+                description: "Test Description"
             },
             {
                 title: "SimpleChat",
