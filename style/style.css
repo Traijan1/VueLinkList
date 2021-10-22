@@ -6,12 +6,21 @@ body {
     background-color: #121212;
 }
 
+.link-list_container {
+    margin-bottom: 50px;
+}
+
 .link-list_list {
     display: flex;
     list-style-type: none;
 }
 
+.link-list_h2 {
+    color: #ccc9c9; 
+}
+
 .link-item_title {
+    position: relative;
     display: inline-block;
     color: #121212;
     background-color: #80a5e3;
@@ -22,8 +31,9 @@ body {
     border-radius: 10px;
     line-height: 30px;
     margin-right: 20px;
+    transition: top 1s;
 }
 
 .link-item_title:hover {
-    background-color: #FFF;
+    top: 10px;
 }
