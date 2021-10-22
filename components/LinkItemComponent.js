@@ -2,11 +2,12 @@ Vue.component("link-item", {
     name: "LinkItem",
     props: [
         "link",
-        "title"
+        "title",
+        "description"
     ],
     template: `
         <li>
-            <a v-bind:href="link" target="_blank" class="link-item_title">{{ title }}</a>
+            <a v-bind:href="link" v-bind:title="description" target="_blank" class="link-item_title">{{ title }}</a>
         </li>    
     `
 });
