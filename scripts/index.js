@@ -12,6 +12,10 @@ var vue = new Vue({
                     {
                         title: "SimpleChat",
                         link: "https://github.com/Traijan1/SimpleChat"
+                    },
+                    {
+                        title: "Packer",
+                        link: "https://github.com/Traijan1/Packer"
                     }
                 ]
             }

@@ -1,0 +1,29 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-color: #121212;
+}
+
+.link-list_list {
+    display: flex;
+    list-style-type: none;
+}
+
+.link-item_title {
+    display: inline-block;
+    color: #121212;
+    background-color: #80a5e3;
+    text-decoration: none;
+    font-weight: bold;
+    height: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-right: 20px;
+}
+
+.link-item_title:hover {
+    
+}
