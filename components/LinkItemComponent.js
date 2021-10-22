@@ -6,7 +6,7 @@ Vue.component("link-item", {
     ],
     template: `
         <li>
-            <a v-bind:href="link" target="_blank">{{ title }}</a>
+            <a v-bind:href="link" target="_blank" class="link-item_title">{{ title }}</a>
         </li>    
     `
 });
