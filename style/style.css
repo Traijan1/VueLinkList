@@ -6,9 +6,17 @@ body {
     background-color: #121212;
 }
 
+.link-list_container {
+    margin-bottom: 50px;
+}
+
 .link-list_list {
     display: flex;
     list-style-type: none;
+}
+
+.link-list_h2 {
+    color: #ccc9c9; 
 }
 
 .link-item_title {
