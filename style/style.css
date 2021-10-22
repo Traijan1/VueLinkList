@@ -12,6 +12,7 @@ body {
 }
 
 .link-item_title {
+    position: relative;
     display: inline-block;
     color: #121212;
     background-color: #80a5e3;
@@ -22,8 +23,9 @@ body {
     border-radius: 10px;
     line-height: 30px;
     margin-right: 20px;
+    transition: top 1s;
 }
 
 .link-item_title:hover {
-    background-color: #FFF;
+    top: 10px;
 }
